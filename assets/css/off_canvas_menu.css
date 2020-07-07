@@ -1,0 +1,88 @@
+/* off-canvas-menu-css */
+.off-canvas-menu, .mb-live-chat-op {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+    padding: 25px 0;
+    right: -100%;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s; }
+  
+  .mobile-menu ul li a {
+    font-size: 20px;
+    color: #090909; }
+  
+  .off-canvas-menu.active {
+    right: 0; }
+
+  .mb-live-chat-op.active {
+    left: 0; }
+  
+  .menu-close {
+    color: #090909;
+    right: 65px;
+    top: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    border-radius: 100%;
+    border: 1px solid #090909;
+    height: 30px;
+    width: 30px;
+    padding: 3px 8px; }
+
+  .menu-close-2 {
+    color: #090909;
+    right: 65px;
+    top: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+    border-radius: 100%;
+    border: 1px solid #090909;
+    height: 30px;
+    width: 30px;
+    padding: 3px 8px; }
+  
+  .menu-trigger span {
+    height: 2px;
+    width: 30px;
+    display: block;
+    background: #fff;
+    margin-bottom: 8px; }
+  
+  .menu-trigger {
+    float: right;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px; }
+  .mb_live_chat {
+    float: left;
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    width: 150px;
+ }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .menu-trigger {
+        display: block; } 
+      .mb_live_chat {
+        display: block; } }
+    @media (max-width: 767px) {
+      .menu-trigger {
+        display: block; } 
+      .mb_live_chat {
+        display: block; } }
+  
+  .menu-trigger span:nth-child(2) {
+    width: 14px; }
+  
+  .menu-trigger span:nth-child(3) {
+    width: 25px; }

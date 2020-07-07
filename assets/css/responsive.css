@@ -1,0 +1,479 @@
+@media (min-width: 1024px)  {
+.dropdown-menu {background-color: #272727; color : #ccc;}
+.content {padding : 20px 40px 20px 40px;}
+
+.w-100 {
+    width: 79% !important;
+}
+.support {
+	display : none;
+}
+
+.slider-area .col-lg-8 {padding-right : 0;}
+.slider-area .col-lg-4 {padding-left : 5px;}
+
+.jackpot-content{
+    background-image: url(../img/jp-i.gif);
+    background-size: cover;
+    background-position: center center;
+    height: 81px;
+}
+}
+
+
+@media (max-width: 1024px)  {
+	.contact {display : none;}
+    .header {
+    background-image: url(../img/m-menu.png);
+    background-size: cover;
+    background-position: center center;
+    height: 88px;
+    }
+	.slider-area .col-lg-8 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+	.slider-area .col-lg-4 {
+		display : none;
+    }
+	
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.col-lg-9 {padding-left : 0; padding-right : 0;}
+}
+
+
+@media (max-width: 768px)  { 
+	.slider-area .col-lg-9 {padding-left : 0; padding-right : 0;}
+
+.login-form input[type="name"], .login-form input[type="password"] {
+    margin-top: 52px;
+    border: 1px solid #000065;
+	border-radius : 10px;
+	background-color : transparent;
+    padding: 9px 8px;
+    display: inline-block;
+	width : 100%;
+	color : #f0f0f0;
+	text-align : center;
+}
+.login-form input[type="submit"] {
+    padding: 5px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+	
+}	
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :1024px. */
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .header {
+        height: 73px;
+    }
+    .live-chat ul li a {
+        font-size: 14px;
+    }
+    
+    .live-chat ul li:nth-child(4) a {
+        margin-left: 60px;
+    }
+	
+
+    
+    .live-chat ul li a img {
+        height: 30px;
+        width: 160px;
+    }
+    
+    .live-chat ul li:nth-child(5) a {
+        margin-left: 10px;
+    }
+    marquee {
+        margin-top: 10px;
+        width: 440px;
+    }
+    .menu ul li a {
+        font-size: 12px;
+    }
+    
+    .menu ul li {
+        margin-top: 12px;
+    }
+    
+    .menu ul li:nth-child(3) a {
+        margin-left: 15px;
+    }
+    .deposit-content {
+        height: 270px;
+    }
+    
+    .single-deposit-content p {
+        line-height: 42px;
+        font-size: 18px;
+    }
+    
+    .single-deposit-content {
+        margin-top: 55px;
+    }
+    
+    .jackpot-content input {
+        line-height: 65px;
+    }
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header {
+        height: 73px;
+    }
+    .live-chat ul li a {
+        font-size: 14px;
+    }
+    
+    .live-chat ul li:nth-child(4) a {
+        margin-left: 60px;
+    }
+    
+    .live-chat ul li a img {
+        height: 30px;
+        width: 160px;
+    }
+    
+    .live-chat ul li:nth-child(5) a {
+        margin-left: 10px;
+    }
+    marquee {
+        margin-top: 10px;
+        width: 440px;
+    }
+    .menu ul li a {
+        font-size: 12px;
+    }
+    
+    .menu ul li {
+        margin-top: 12px;
+    }
+    
+    .menu ul li:nth-child(3) a {
+        margin-left: 15px;
+    }
+    .deposit-content {
+        height: 270px;
+    }
+    
+    .single-deposit-content p {
+        line-height: 42px;
+        font-size: 18px;
+    }
+    
+    .single-deposit-content {
+        margin-top: 55px;
+    }
+    
+    .jackpot-content input {
+        line-height: 65px;
+    } 
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+    .container{
+        width: auto;
+    }
+	.navbar-collapse {
+		background-color: #272727;
+	}	
+	
+    .login-form input[type="name"], .login-form input[type="pass"] {
+        padding: 5px 10px;
+    }
+    .header {
+    }
+	
+	.jackpot-content{
+		background-image: url(../img/jackpot.png);
+		background-size: cover;
+		background-position: center center;
+	}	
+	.single-jackpot-content-1, .single-jackpot-content-2 {
+		display: inline-block;
+		color: #fff;
+		width: 50%;
+		float: left;
+		margin-top: 12px;
+	}	
+	.single-jackpot-content-1 {padding-left: 130px;}
+	.single-jackpot-content-2 {padding-left: 15px;}
+	
+	.jackpot-content input {
+		background: none;
+		color: #fff;
+		border: none;
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 0px;
+		outline: none;
+		width: 200px;
+		letter-spacing: 1px;
+        padding-left: 0px;
+        line-height: 20px;
+	}	
+    
+    .deposit-content {
+        min-height: 165px;
+		height: 165px;
+    }
+    .single-deposit-content-1,
+    .single-deposit-content-2,
+    .single-deposit-content-3
+	{
+        margin-top: 28px;
+    }
+	.single-deposit-content-1 table,
+	.single-deposit-content-2 table,
+	.single-deposit-content-3 table
+	 {width : 90%;}
+
+	.single-deposit-content-1 td,
+	.single-deposit-content-2 td,
+	.single-deposit-content-3 td
+	 {
+		margin: 0;
+		font-size: 13px;
+		line-height: 22px;
+	}
+    
+	.user1,.user2, .user3 {float : left; width : 35%;}
+	.tanggal1,.tanggal2, .tanggal3 {width : 20%;}
+	.rupiah1,.rupiah2,.rupiah3 {width : 35%; text-align : right;}
+	
+    .logo img {
+        width: 220px;
+        margin: 0 auto;
+        display: block;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    
+    a.menu-trigger {
+        top: 100px;
+    }
+    
+
+
+
+}
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    .mobile-login-form{
+    display: block;
+}
+    .container{
+        width: auto;
+    }
+
+	.runing-text marquee {
+		position: relative;
+		top: 7px;
+		width: 100%;
+		margin-right: 10px;
+		color: #fff;
+		padding: 0 20px;
+		font-size: 14px;
+	}	
+	.navbar-collapse {
+		background-color: #272727;
+	}	
+
+	.dropdown-menu .dropdown-item {color: #555;}
+	.nav-justified .nav-item {text-align: left;}
+	.navbar-nav .nav-link {padding-left: 25px;}
+
+    .deposit-content {
+        height: 100%;
+        background: none;
+    }
+    
+    .login-form input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+	.jackpot-content{
+    background-image: none;
+	}	
+	.single-jackpot-content-1, .single-jackpot-content-2, .single-jackpot-content-3 {
+		display: inline-block;
+		color: #fff;
+		width: 100%;
+		float: left;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		background-size: normal;
+		background-position: center center;
+		height : 50px;
+		padding-left : 100px;
+	}	
+	.single-jackpot-content-1 {background-image: url(../img/m-domino.png);}
+	.single-jackpot-content-2 {background-image: url(../img/m-poker.png);}
+	.single-jackpot-content-3 {background-image: url(../img/m-capsa.png);}
+	
+	.jackpot-content input {
+		background: none;
+		color: #fff;
+		border: none;
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 0px;
+		outline: none;
+		width: 150px;
+		letter-spacing: 2px;
+        padding-left: 0px;
+        line-height: 20px;
+	}	
+    	
+    .single-deposit-content-1,
+    .single-deposit-content-2,
+    .single-deposit-content-3 {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-top: 10px;
+        padding-top: 45px;
+        text-align: center;
+        background-size: cover;
+        background-position: center top;
+	}
+    .single-deposit-content-1{background-image: url(../img/depo.png);}
+    .single-deposit-content-2{background-image: url(../img/);}
+    .single-deposit-content-3{background-image: url(../img/wd.png);}
+
+	.single-deposit-content-1 table,
+	.single-deposit-content-2 table,
+	.single-deposit-content-3 table {
+    padding-left: 20px;
+	}
+
+	.single-deposit-content-1 td,
+	.single-deposit-content-2 td,
+	.single-deposit-content-3 td
+	 {
+		margin: 0;
+		font-size: 14px;
+		line-height: 33px;
+	}
+	
+	
+    .logo img {
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+    .mb-news{
+        display: block;
+    }
+    marquee {
+        width: auto;
+    }
+    .logo {
+        margin-bottom: 50px;
+    }
+    
+    a.menu-trigger {
+        top: 100px;
+    }
+
+
+
+.mb_live_chat {display : none;}
+.login-form {
+    text-align: center;
+    margin-top: 25px;}
+
+.logo {
+    margin-bottom: 00px;
+    width: 100%;
+	float : left;
+}
+
+.mb-menu {
+	width : 25%;
+	float : right;
+}
+    
+a.menu-trigger {
+    top: 30px;
+}	
+}
+
+/* Ipad Pro 834pixel */
+@media (max-width: 834px) { 
+.jackpot-content{height: 75px;}
+}
+
+/* Kindle Fire 800px */
+@media (max-width: 800px) { 
+.jackpot-content{background-image: none;}	
+.single-jackpot-content-1, .single-jackpot-content-2 {margin-top: 20px;}
+}
+
+/* Ipad 768pixel */
+@media (max-width: 768px) { 
+.jackpot-content{background-image: none;}	
+
+.single-jackpot-content-1, .single-jackpot-content-2 {margin-top: 11px;}
+.runing-text {margin-top: 0px;}
+}
+
+/* Standart ponsel Iphone 6/7/8 Plus 414px */
+@media (max-width: 414px) { 
+.jackpot-content{background-image: none;}	
+
+.single-deposit-content-1, .single-deposit-content-3 {height: 275px; margin-top: 0px; padding-top : 65px;}
+.single-deposit-content-2 {height: 275px; margin-top: 0px; padding-top : 15px;}
+
+.single-deposit-content-1 td,.single-deposit-content-2 td,.single-deposit-content-3 td { margin: 0; font-size: 14px; line-height: 39px;}
+
+.single-jackpot-content-1, .single-jackpot-content-2, .single-jackpot-content-3 {padding-left : 120px;}
+
+.jackpot-content input {width: 175px;padding-left: 25px;}
+
+}
+
+/* Standart ponsel Iphone 6/7/8 375px */
+@media (max-width: 375px) { 
+.jackpot-content{height: 37px;}
+.single-jackpot-content-1, .single-jackpot-content-2 {margin-top: 5px;}
+
+.single-deposit-content-1, .single-deposit-content-3 { height: 245px; margin-top: 0px; padding-top: 55px;}
+.single-deposit-content-2 { height: 245px; margin-top: 0px; padding-top: 0px;padding-bottom: 15px;}
+
+.single-deposit-content-1 td,.single-deposit-content-2 td,.single-deposit-content-3 td{ margin: 0; font-size: 14px; line-height: 35px;}
+
+}
+
+}
+
+/* Oppo A37 / F7 - 360px */
+@media (max-width: 360px) { 
+.jackpot-content{height: 36px;}
+.single-jackpot-content-1, .single-jackpot-content-2 {margin-top: 4px;}
+.single-deposit-content-1, .single-deposit-content-2, .single-deposit-content-3 { height: 240px; margin-top: 0px; padding-top: 45px;}
+.single-deposit-content-1 td, .single-deposit-content-2 td, .single-deposit-content-3 td {margin: 0;font-size: 14px;line-height: 32.5px;}
+.s_right {padding-left : 20px;}
+}

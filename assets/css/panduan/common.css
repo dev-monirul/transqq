@@ -1,0 +1,347 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*@font-face {
+  font-family: 'century-gothic';
+  src: url('../fonts/ufonts.com_century-gothic.eot');  IE9 Compat Modes 
+  src: url('../fonts/ufonts.com_century-gothic.eot?#iefix') format('embedded-opentype'),  IE6-IE8 
+       url('../fonts/ufonts.com_century-gothic.woff2') format('woff2'),  Super Modern Browsers 
+       url('../fonts/ufonts.com_century-gothic.woff') format('woff'),  Pretty Modern Browsers 
+       url('../fonts/ufonts.com_century-gothic.ttf')  format('truetype'),  Safari, Android, iOS 
+       url('../fonts/ufonts.com_century-gothic.svg#svgFontName') format('svg');  Legacy iOS 
+}*/
+
+@font-face {
+  font-family: 'BudmoJiggler';
+  src: url('../fonts/BudmoJiggler.ttf');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	outline: 0px none;
+	background: none repeat scroll 0% 0% transparent;	
+	text-align:left;
+}
+html{ 
+  background:url(../../bg/bg.jpg) repeat-x top center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background:url(../../bg/bg.png) repeat-x;
+  background-color:#000000;*/
+}
+body{
+	font-size:14px;
+	font-family: arial;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+a img{
+	border:none;
+}
+a:hover{
+	opacity: 0.5;
+}
+ul {
+	list-style-type: none;
+}
+
+p{
+	text-align:justify;
+	
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+	}	
+/* FF, Safari, Opera—p */
+
+.clearfix {
+	display:inline-block;
+	}
+/* IE7, MacIE5—p */
+
+/* The Following Hidden From MacIE \*/
+	* html .clearfix { height:1%; }
+	.clearfix { display:block; height:inherit; }
+
+.clear { 
+	clear: both; 
+	height: 0;
+}
+#sectionWrapper{
+	width:960px;
+	height:auto;
+	position:relative;
+	margin:0 auto;
+	
+}
+
+#sectionWrapper #sectionHeader{
+	width:960px;
+	height:134px;
+	position:relative;
+	margin:0 auto;
+}
+#sectionWrapper #sectionHeader .contact{
+	width: 630px;
+	height: 22px;
+	right: 0;
+	top: 98px;
+	position: absolute;
+	text-align: right;
+}
+#sectionWrapper #sectionHeader .contact img{
+	margin-left: 50px;
+}
+
+#sectionWrapper #sectionHeader #sectionLogo{
+	height:100px;
+	width:300px;
+	left:0;
+	top:34px;
+	position:absolute;
+}
+#sectionWrapper #sectionHeader .sectionLogin{
+	position: absolute;
+	right: 0;
+	top: 62px;
+	width: 575px;
+	height: 36px;
+}
+#sectionWrapper #sectionHeader .sectionLogin .livechat{
+	position: absolute;
+	left: 16px;
+	top:250px;
+}
+#sectionWrapper #sectionHeader .sectionLogin input{
+	width:129px;
+	height:26px;
+	border:none;
+	position:absolute;
+	font-size:14px;
+	padding: 5px 5px 5px 45px;
+	background: none;
+	color: #fff;
+	top: 0;
+}
+#sectionWrapper #sectionHeader .sectionLogin input.username{
+	left: 0px;
+	background: url(../../btn/username.png) no-repeat;
+	
+}
+#sectionWrapper #sectionHeader .sectionLogin input.password{
+	left: 188px;
+	background: url(../../btn/password.png) no-repeat;
+
+}
+
+#sectionWrapper #sectionHeader .sectionLogin input[type="button"]{	
+	padding:0;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	width:95px;
+	height:36px;
+}
+#sectionWrapper #sectionHeader .sectionLogin input#btn-login{
+	background:url(../../btn/login.png) no-repeat;	
+	right: 102px;
+	
+}
+#sectionWrapper #sectionHeader .sectionLogin input#btn-register{
+	background:url(../../btn/daftar.png) no-repeat;
+	right: 0px;
+}
+#sectionWrapper #sectionMenu{
+	width: 960px;
+	height: 45px;
+	background: url(../../bg/menu.png) repeat-x;
+	margin:10px auto 0 auto;
+}
+#sectionWrapper #contact{
+	width:960px;
+	height:60px;
+	background: url(../../contact.png) repeat-x;
+}
+
+#sectionWrapper #sectionMenu ul{
+	list-style: none;
+}
+#sectionWrapper #sectionMenu ul li{
+	float: left;
+	background: url(../../bg/saperated.png) no-repeat top right;
+	height: 32px;
+	padding: 13px 35px 0 25px;
+}
+#sectionWrapper #sectionMenu ul li:first-child{
+	border-left: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+#sectionWrapper #sectionMenu ul li:last-child{
+	padding: 5px 0 0 0;
+	background: none;
+	
+}
+#sectionWrapper #sectionMenu ul li a{
+	display: inline-block;
+	line-height: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #001f14;
+}
+#sectionWrapper #sectionMenu ul li:last-child a{
+	color: #fff;
+	padding: 0 24px;
+}
+#sectionWrapper #sectionMenuRight ul li a{
+	padding: 0 5px;
+}
+
+#sectionWrapper #sectionInfo{
+	margin: 0 auto;
+	width: 800px;
+	height: 40px;
+	padding:0px 20px 0 140px;
+	background: url(../../bg/info.png) no-repeat;
+}
+#sectionWrapper #sectionInfo marquee{
+	color: #fff;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+}
+#sectionWrapper .sectionContain{
+	width:960px;
+	height:324px;
+	position:relative;
+	margin-top: 10px;
+}
+
+#sectionWrapper .sectionContain .content #slider{
+	width: 960px;
+	height: 324px;
+	margin: 0 auto;
+}
+
+#sectionWrapper #sectionTransection{
+	width: 960px;
+	height: 230px;
+	margin:10px auto 0 auto;
+	position: relative;
+	background: url(../../bg/transection.png) no-repeat;
+}
+
+#sectionWrapper #sectionTransection .transection{
+	position: absolute;
+	width: 270px;
+	height: auto;
+	top: 115px;	
+}
+#sectionWrapper #sectionTransection .deposit{
+	left: 25px;
+}
+
+#sectionWrapper #sectionTransection .withdraw{
+	left: 670px
+}
+#sectionWrapper #sectionTransection .transection table{
+	border-collapse:separate; 
+	width: 270px;
+}
+#sectionWrapper #sectionTransection .transection table td{
+	height: 18px;
+	line-height: 18px;
+	border: 0;
+	padding: 0 5px;
+	font-size: 16px;
+	color: #fff;
+}
+
+#sectionWrapper #sectionTransection .transection table td:nth-child(1){
+	width: 30%;
+	text-align: left;
+}
+#sectionWrapper #sectionTransection .transection table td:nth-child(2){
+	width: 30%;
+	text-align: center;
+}
+#sectionWrapper #sectionTransection .transection table td:nth-child(3){
+	width: 40%;
+	text-align: right;
+}
+#sectionWrapper #sectionTransection #sectionWinner{
+	width: 315px;
+	height: 230px;
+	position: absolute;
+	left: 320px;
+}
+#sectionWrapper #sectionTransection #sectionWinner p.jackpot{
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	width: 220px;
+	height: 55px;
+	line-height: 55px;
+	font-weight: bold;
+	text-align: center;
+	left: 90px;
+}
+#sectionWrapper #sectionTransection #sectionWinner p.poker{
+	top: 10px;
+}
+#sectionWrapper #sectionTransection #sectionWinner p.domino{
+	top: 88px;
+}
+#sectionWrapper #sectionTransection #sectionWinner p.capsa{
+	top: 168px;
+}
+#sectionWrapper #sectionFooter{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+#sectionWrapper #sectionFooter p{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	width: 960px;
+	margin:20px auto 0 auto;
+}
+
+.livechat{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+
+
